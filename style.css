@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(222, 224, 225);
+}
+
+.head{
+    color: white;
+    background-color: rgb(34, 37, 43);
+    height: 220px;
+}
+
+.name{
+    text-align:center;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.degree{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.d1{
+    background-color: rgba(255, 255, 255, 0.36);
+    width: 80%;
+    height: 200px;
+    
+}
+
+.topic{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+    font-weight: 800;
+    
+}
+
+.me{
+    font-weight: 100;
+    text-align: center;
+    color: gray;
+    margin: 15px 5px;
+    padding-bottom: 20px;
+}
+
+.d2{
+    background-color: rgba(111, 153, 250, 0.353);
+    width: 80%;
+    margin-top: 50px;
+    height: 250px;
+}
+
+.insti{
+    text-align: center;
+    margin:15px 5px;
+    background-color: white;
+    padding: 10px 0px;
+    width: 80%;
+    margin-left: 115px;
+    font-weight: 100;
+}
+
+.d3{
+    background-color: rgba(250, 243, 111, 0.353);
+    width: 80%;
+    margin-top: 50px;
+    height: 360px;
+}
+
+
+.insti0{
+    text-align: center;
+    margin:15px 5px;
+    background-color: white;
+    padding: 10px 0px;
+    width: 70%;
+    margin-left: 180px;
+    font-weight: 900;
+}
+
+.d4{
+    background-color: rgba(250, 183, 242, 0.353);
+    width: 80%;
+    margin-top: 50px;
+    height: 300px;
+}
+
+.insti1{
+    text-align: center;
+    margin:15px 5px;
+    background-color: white;
+    padding: 10px 0px;
+    width: 80%;
+    margin-left: 115px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.d5{
+    background-color: rgba(197, 250, 183, 0.353);
+    width: 80%;
+    margin-top: 50px;
+    height: 300px;
+}
+
+.insti2{
+    text-align: center;
+    margin:15px 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    width: 70%;
+    margin-left: 180px;
+    font-weight: 500;;
+}
+
+.footer{
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(34, 37, 43);
+    height: 50px;
+    text-align: center;
+}
+
+.ft{
+    padding-top: 15px;
+}
